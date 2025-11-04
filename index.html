@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym - Transforme seu corpo, transforme sua vida</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Power<span>Fit</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#features">Serviços</a></li>
+                    <li><a href="#plans">Planos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn" id="loginBtn">Entrar</button>
+                <button class="signup-btn" id="signupBtn">Cadastrar</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Transforme seu corpo, transforme sua vida</h2>
+            <p>Na PowerFit, oferecemos equipamentos de última geração, instrutores qualificados e um ambiente motivador para você alcançar seus objetivos.</p>
+            <a href="#plans" class="cta-button">Comece Agora</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos uma variedade de serviços para atender todas as suas necessidades de fitness</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Musculação</h3>
+                    <p>Área completa com equipamentos de última geração para todos os grupos musculares.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Cardio</h3>
+                    <p>Esteiras, bicicletas e elípticos para melhorar sua resistência e saúde cardiovascular.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Aulas Coletivas</h3>
+                    <p>Zumba, spinning, pilates, yoga e muito mais com instrutores especializados.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Personal Trainer</h3>
+                    <p>Treinamento personalizado para resultados mais rápidos e eficazes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans" id="plans">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Planos</h2>
+                <p>Escolha o plano que melhor se adapta ao seu estilo de vida e objetivos</p>
+            </div>
+            <div class="plans-grid">
+                <div class="plan-card plan-basic">
+                    <div class="plan-header">
+                        <h3>Básico</h3>
+                        <div class="plan-price">R$ 79<span>/mês</span></div>
+                        <p>Acesso à academia em horários específicos</p>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acesso à área de musculação</li>
+                            <li><i class="fas fa-check"></i> Acesso à área de cardio</li>
+                            <li><i class="fas fa-check"></i> Vestuário e chuveiros</li>
+                            <li><i class="fas fa-times"></i> Aulas coletivas</li>
+                            <li><i class="fas fa-times"></i> Acesso aos finais de semana</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="plan-button">Escolher Plano</a>
+                </div>
+                <div class="plan-card plan-pro">
+                    <div class="plan-popular">Mais Popular</div>
+                    <div class="plan-header">
+                        <h3>Pro</h3>
+                        <div class="plan-price">R$ 119<span>/mês</span></div>
+                        <p>Acesso completo com benefícios extras</p>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Acesso ilimitado à academia</li>
+                            <li><i class="fas fa-check"></i> Todas as áreas de musculação e cardio</li>
+                            <li><i class="fas fa-check"></i> Aulas coletivas inclusas</li>
+                            <li><i class="fas fa-check"></i> Acesso aos finais de semana</li>
+                            <li><i class="fas fa-check"></i> Avaliação física gratuita</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="plan-button">Escolher Plano</a>
+                </div>
+                <div class="plan-card plan-premium">
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <div class="plan-price">R$ 239<span>/mês</span></div>
+                        <p>Experiência completa com todos os benefícios</p>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Todos os benefícios do plano Pro</li>
+                            <li><i class="fas fa-check"></i> 4 sessões com personal trainer</li>
+                            <li><i class="fas fa-check"></i> Acesso à área VIP</li>
+                            <li><i class="fas fa-check"></i> Acompanhamento nutricional</li>
+                            <li><i class="fas fa-check"></i> Convite para um amigo 2x por mês</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="plan-button">Escolher Plano</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Estamos aqui para responder suas perguntas e ajudar você a começar sua jornada fitness</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. Cadarço, 1234 - Flores, Manaus - AM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(92) 3456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contato@powerfit.com.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horário de Funcionamento</h4>
+                                <p>Segunda a Sexta: 5h às 23h<br>Sábados e Domingos: 6h às 20h</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Nossas Unidades</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-pin"></i>
+                            <div>
+                                <h4>Manaus - Centro</h4>
+                                <p>Av. Lourenço, 1234</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-pin"></i>
+                            <div>
+                                <h4>Manaus - Zona Sul</h4>
+                                <p>Rua Vergueiro, 567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-pin"></i>
+                            <div>
+                                <h4>Manaus - Zona Oeste</h4>
+                                <p>Av. Faria Lima, 890</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Seu Nome" required>
+                        <input type="email" placeholder="Seu Email" required>
+                        <input type="tel" placeholder="Seu Telefone">
+                        <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h4>PowerFit</h4>
+                    <p>Transformando vidas através do fitness desde 2010. Nossa missão é proporcionar um ambiente acolhedor e motivador para todos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#features">Serviços</a></li>
+                        <li><a href="#plans">Planos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Musculação</a></li>
+                        <li><a href="#">Cardio</a></li>
+                        <li><a href="#">Aulas Coletivas</a></li>
+                        <li><a href="#">Personal Trainer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Gomes, 1234 - AM</li>
+                        <li><i class="fas fa-phone"></i> (92) 3456-7890</li>
+                        <li><i class="fas fa-envelope"></i> contato@powerfit.com.br</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 PowerFit Gym. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Entrar na Minha Conta</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Senha</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="form-button">Entrar</button>
+                <div class="form-footer">
+                    <p>Não tem uma conta? <a href="#" id="showSignup">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Criar uma Conta</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Nome Completo</label>
+                    <input type="text" id="signupName" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPhone">Telefone</label>
+                    <input type="tel" id="signupPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Senha</label>
+                    <input type="password" id="signupPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupConfirmPassword">Confirmar Senha</label>
+                    <input type="password" id="signupConfirmPassword" required>
+                </div>
+                <button type="submit" class="form-button">Cadastrar</button>
+                <div class="form-footer">
+                    <p>Já tem uma conta? <a href="#" id="showLogin">Faça login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
